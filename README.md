@@ -75,6 +75,38 @@ yarn dev
     <Rect {...stylex.props(styles.marginRect)} />
     ```
 
+    ```jsx
+    type RectProps = {
+  appearance?: StyleXStyles<{
+    background?: string, // required
+    border?: string, // optional
+  }>;
+  dimensions?: StyleXStyles<{
+    width: string, // required
+    height: string, // required
+  }>;
+};
+
+const RectStyles = stylex.create({
+  defaultAppearance: {
+    background: "red",
+  },
+  borderAppearance: {
+    background: "red",
+    border: "1rem solid white",
+  },
+  smallDimensions: {
+    width: "100px",
+    height: "100px",
+  },
+});
+
+export function Rect({ appearance, dimensions }: RectProps) {
+  return <div {...stylex.props(appearance, dimensions)}
+  />;
+}
+```
+
 
 - [shadcn/ui](https://ui.shadcn.com/) 
   - Beautifully designed components built on top of Radix UI and Tailwind CSS that we can copy and paste into our app. Accessible. Customizable. Open Source.
