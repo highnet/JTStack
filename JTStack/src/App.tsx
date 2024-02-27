@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import stylex from "@stylexjs/stylex";
 import { StyleXStyles } from "@stylexjs/stylex/lib/StyleXTypes";
+import { Button } from "@/components/ui/button"
 
 type RectProps = {
   appearance?: StyleXStyles<{
@@ -40,6 +41,7 @@ function App() {
   return (
     <>
       <div>
+        <Button>Click me</Button>
         <Rect appearance={RectStyles.borderAppearance} dimensions={RectStyles.smallDimensions} />
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
