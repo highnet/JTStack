@@ -1,9 +1,7 @@
-
-
-##
+# JTStack
+Quick Start for Modern Web Applications
 
 <div align="center">
-  <h1>JTStack</h1> </br></br>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" width="52" alt="typescript logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" width="52" alt="react logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
@@ -13,9 +11,6 @@
 <img alt="npm" src="https://img.shields.io/npm/v/vite?style=for-the-badge">
 <img alt="node-current" src="https://img.shields.io/node/v/vite?style=for-the-badge">
 </div>
-
-## JTStack
-Quick Start for Modern Web Applications
 
 ## ❓ How to get started?
 ```
