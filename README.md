@@ -1,5 +1,5 @@
 # JTStack
-Quick Start for Modern Web Applications
+React the way it was meant to be used.
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" width="52" alt="typescript logo"  />
